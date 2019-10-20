@@ -1,0 +1,151 @@
+/*!
+ * TaDa Development - Hearing Aids Manassas CSS (https://hearingaidsmanassas.com)
+ * All rights reserved Tada! Development
+ */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #F5F5F5;
+  color: #000;
+  padding: 0.2em 0;
+}
+body {
+  background-color: #F5F5F5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+/*NAVIGATION CSS*/
+a.navbar-brand.white-text {
+  color: white;
+}
+a.btn.btn-default.nav-link.white-text {
+  color: white;
+}
+
+/*Carousel CSS*/
+span.carousel-control-prev-icon {
+  background-image: none;
+}
+span.carousel-control-next-icon {
+  background-image: none;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  background: radial-gradient(black, transparent);
+}
+.carousel-images {
+  max-height: 15em;
+}
+
+/*FORM SECTION CSS*/
+input[type="submit"] {
+  background: lightsteelblue;
+}
+.form-container {
+  padding: 2em;
+  color: white;
+}
+.form-input {
+  margin: 0.3em 0em 0.3em 0em;
+}
+
+/*MAIN CONTENT CSS*/
+.main-content {
+  background-color: #F5F5F5;
+}
+.tada-main-box {
+  padding: 1em;
+}
+.tada-main-box-two {
+  padding: 1em;
+}
+span.display-none-mobile {
+  display: none;
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    /*Carousel CSS*/
+    .carousel-item {
+      height: 30em;
+      width: 100%;
+    }
+    div#carouselExampleCaptions {
+        height: 100%;
+    }
+    /*FORM SECTION CSS*/
+    .form-input {
+      margin: .3em;
+    }
+    .carousel-images {
+      max-height: 30em;
+      min-height: 15em;
+    }
+    a.call-button {
+      font-size: 1.5em;
+    }
+    span.display-none-mobile {
+      display: inherit;
+    }
+    .tada-h2 {
+      font-size: 1.5rem;
+    }
+    .tada-main-box {
+        padding: 1em 1em 1em 1em;
+    }
+    .tada-main-box-two {
+        padding: 1em 0em 0em 0em;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .tada-main-box {
+        padding: 1em 1em 1em 1em;
+    }
+    .tada-main-box-two {
+        padding: 2em 1em 1em 1em;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    span.display-none-desktop {
+      display: none;
+    }
+    .tada-h2 {
+      font-size: 2rem;
+    }
+    .tada-main-box {
+        padding: 1em 1em 1em 1em;
+    }
+    .tada-main-box-two {
+        padding: 3em 1em 1em 1em;
+    }
+  
+    
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .tada-main-box {
+        padding: 1em 1em 1em 1em;
+    }
+    .tada-main-box-two {
+        padding: 7em 1em 1em 1em;
+    }
+
+}
