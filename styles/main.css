@@ -1,5 +1,5 @@
 /*!
- * TaDa Development - Hearing Aids Manassas CSS (https://hearingaidsmanassas.com)
+ * TaDa Development - Hearing Aids Chesapeake CSS (https://hearingaidsmanassas.com)
  * All rights reserved Tada! Development
  */
 .browserupgrade {
@@ -69,6 +69,9 @@ input[type="submit"] {
 }
 span.display-none-mobile {
   display: none;
+}
+.tada-bg-blue {
+    background-color: #7298B5;
 }
 
 
