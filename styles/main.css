@@ -72,6 +72,14 @@ span.display-none-mobile {
 }
 .tada-bg-blue {
     background-color: #7298B5;
+    /*background-color: #B6B9C7;*/
+}
+.tada-bg-box {
+    border: solid;
+    /*padding: 5em 15em 5em 15em;*/
+    background: url(../images/box-bg-1.jpg);
+    background-position: top;
+    color: white;
 }
 
 
@@ -111,6 +119,13 @@ span.display-none-mobile {
     .tada-main-box-two {
         padding: 1em 0em 0em 0em;
     }
+    .tada-bg-box {
+        border: solid;
+        /*padding: 5em 15em 5em 15em;*/
+        background: url(../images/box-bg-1.jpg);
+        background-position: top;
+        color: white;
+    }
 
 }
 
@@ -121,6 +136,13 @@ span.display-none-mobile {
     }
     .tada-main-box-two {
         padding: 2em 1em 1em 1em;
+    }
+    .tada-bg-box {
+        border: solid;
+        /*padding: 5em 15em 5em 15em;*/
+        background: url(../images/box-bg-1.jpg);
+        background-position: top;
+        color: white;
     }
 }
 
@@ -138,6 +160,13 @@ span.display-none-mobile {
     .tada-main-box-two {
         padding: 3em 1em 1em 1em;
     }
+    .tada-bg-box {
+        border: solid;
+        /*padding: 5em 15em 5em 15em;*/
+        background: url(../images/box-bg-1.jpg);
+        background-position: top;
+        color: white;
+    }
   
     
  }
@@ -149,6 +178,13 @@ span.display-none-mobile {
     }
     .tada-main-box-two {
         padding: 7em 1em 1em 1em;
+    }
+    .tada-bg-box {
+        border: solid;
+        padding: 5em 15em 5em 15em;
+        background: url(../images/box-bg-1.jpg);
+        background-position: top;
+        color: white;
     }
 
 }
