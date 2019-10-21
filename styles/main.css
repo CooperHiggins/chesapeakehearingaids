@@ -188,5 +188,8 @@ span.display-none-mobile {
         background-position: top;
         color: white;
     }
+    .form-container-inside {
+        padding: 2em 12em 2em 12em;
+    }
 
 }
