@@ -140,18 +140,30 @@
 
 
 <div class="container-fluid form-container tada-bg-blue">
-  <div class="container">
+      <div class="col-12">
+        <h3 class="text-center text-white">Schedule An Appointment!</h3>
+      </div>
+  <div class="container ">
     <div class="row">
       <div class="col-12">
-        <h3>Schedule An Appointment!</h3>
-      </div>
-      <div class="col-12">
         <form action="https://formspree.io/chesapeakehearingaids@gmail.com" method="POST">
-            <input class="col-12 col-md-4 form-input" type="text" name="name" placeholder="Name">
-            <input class="col-12 col-md-4 form-input" type="text" name="phone number" placeholder="Phone Number">
-            <input class="col-12 col-md-3 form-input" type="email" name="_replyto" placeholder="Email">
-            
+          <div class="row">
+            <input class="col m-1 form-input" type="text" name="first name" placeholder="First Name">
+            <input class="col m-1 form-input" type="text" name="last name" placeholder="Last Name">
+          </div>
+
+          <div class="row">
+            <input class="col m-1 form-input" type="text" name="Zip Code" placeholder="Zip Code">
+            <input class="col m-1 form-input" type="text" name="City" placeholder="City">
+          </div>
+
+          <div class="row">
+            <input class="col m-1 form-input" type="text" name="phone number" placeholder="Phone Number">
+            <input class="col m-1 form-input" type="email" name="_replyto" placeholder="Email">
+          </div>
+          <div class="row">
             <input type="submit" value="Send" class="btn m-1">
+          </div>
         </form>
       </div>
     </div><!-- row -->
