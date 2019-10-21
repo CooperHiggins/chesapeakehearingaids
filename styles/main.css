@@ -49,6 +49,36 @@ span.carousel-control-next-icon {
   max-height: 15em;
 }
 
+/*ABOUT CSS*/
+.tada-section {
+  padding: 5em;
+}
+.tada-header {
+  padding: 5em 2em 2em 5em;
+}
+button.btn.btn-lg.btn-default.about-btn {
+    border: .2em solid #7298B5;
+    border-radius: 2em;
+    margin: 1em;
+}
+.btn-lg.about-btn {
+    border: .2em solid #7298B5;
+    border-radius: 2em;
+    margin: 1em;
+}
+:hover.btn-lg.about-btn {
+    border: .2em solid red;
+    border-radius: 2em;
+    margin: 1em;
+}
+:hover.btn-lg.about-btn {
+    border: .2em solid #7298B5;
+    border-radius: 2em;
+    margin: 1em;
+    background-color: #7298B5;
+    color: white;
+}
+
 /*FORM SECTION CSS*/
 input[type="submit"] {
   background: lightsteelblue;
@@ -93,12 +123,7 @@ span.display-none-mobile {
     overflow: hidden;
 
 }
-.tada-section {
-  padding: 5em;
-}
-.tada-header {
-  padding: 5em 2em 2em 5em;
-}
+
 
 
 
