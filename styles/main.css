@@ -89,6 +89,12 @@ span.display-none-mobile {
     overflow: hidden;
 
 }
+.tada-section {
+  padding: 5em;
+}
+.tada-header {
+  padding: 5em 2em 2em 5em;
+}
 
 
 
