@@ -21,6 +21,10 @@ a.navbar-brand.white-text {
 a.btn.btn-default.nav-link.white-text {
   color: white;
 }
+a.navbar-brand {
+    font-size: 1.5em;
+    color: black;
+}
 
 /*Carousel CSS*/
 span.carousel-control-prev-icon {
