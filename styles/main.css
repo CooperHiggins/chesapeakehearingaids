@@ -55,6 +55,8 @@ input[type="submit"] {
 }
 .form-input {
   margin: 0.3em 0em 0.3em 0em;
+  border: solid .1em aliceblue;
+  border-radius: .2em;
 }
 
 /*MAIN CONTENT CSS*/
