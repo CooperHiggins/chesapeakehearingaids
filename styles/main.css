@@ -78,11 +78,18 @@ span.display-none-mobile {
 }
 .tada-bg-box {
     border: solid;
-    /*padding: 5em 15em 5em 15em;*/
-    background: url(../images/box-bg-1.jpg);
-    background-position: top;
     color: white;
 }
+.tada-bg-box-img {
+    background: url(../images/box-bg-1.jpg);
+    background-position: top;
+    background-webkit-transform: rotate(180deg);
+    background-transform: rotate(180deg);
+    position: relative;
+    overflow: hidden;
+
+}
+
 
 
 /*// Extra small devices (portrait phones, less than 576px)
@@ -164,7 +171,6 @@ span.display-none-mobile {
     }
     .tada-bg-box {
         border: solid;
-        /*padding: 5em 15em 5em 15em;*/
         background: url(../images/box-bg-1.jpg);
         background-position: top;
         color: white;
@@ -184,9 +190,20 @@ span.display-none-mobile {
     .tada-bg-box {
         border: solid;
         padding: 5em 15em 5em 15em;
+        /*background: url(../images/box-bg-1.jpg);
+        background-position: top;
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);*/
+        color: white;
+    }
+    .tada-bg-box-img {
         background: url(../images/box-bg-1.jpg);
         background-position: top;
-        color: white;
+        background-webkit-transform: rotate(180deg);
+        background-transform: rotate(180deg);
+        position: relative;
+        overflow: hidden;
+
     }
     .form-container-inside {
         padding: 2em 12em 2em 12em;
