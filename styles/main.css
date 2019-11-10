@@ -24,7 +24,9 @@ a.btn.btn-default.nav-link.white-text {
 a.navbar-brand {
     font-size: 1.5em;
     color: black;
+    font-family: 'Arimo', sans-serif;
 }
+
 
 /*Carousel CSS*/
 span.carousel-control-prev-icon {
@@ -39,15 +41,33 @@ span.carousel-control-next-icon {
   bottom: 20px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
   padding-bottom: 20px;
   color: white;
   text-align: center;
   background: radial-gradient(black, transparent);
+  font-family: 'Arimo', sans-serif;
+}
+.tada-carousel-override {
+    padding-top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption h5, p {
+  font-size: 2em;
+}
+span.cursive {
+  font-family: Cursive, sans-serif;
+}
+h5.carousel-brand {
+  font-size: 4em;
 }
 .carousel-images {
   max-height: 15em;
 }
+
 
 /*ABOUT CSS*/
 .tada-section {
