@@ -55,13 +55,21 @@ span.carousel-control-next-icon {
     height: 100%;
     width: 100%;
 }
+.tada-carousel-override-two {
+    padding-top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
 .carousel-caption h5, p {
   font-size: 2em;
 }
 span.cursive {
   font-family: Cursive, sans-serif;
 }
-h5.carousel-brand {
+h2.carousel-brand {
   font-size: 4em;
 }
 .carousel-images {
