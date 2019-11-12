@@ -100,13 +100,49 @@ h2.carousel-brand {
     max-height: 15em;
 }
 
+/*MAIN CONTENT CSS*/
+.main-content {
+    background-color: #F5F5F5;
+}
+.tada-main-box {
+    padding: 1em;
+}
+.tada-main-box-two {
+    padding: 1em;
+}
+span.display-none-mobile {
+    display: none;
+}
+.tada-bg-blue {
+    background-color: #7298B5;
+    /*background-color: #B6B9C7;*/
+}
+.tada-bg-box {
+    border: solid;
+    color: white;
+}
+.tada-bg-box-img {
+    background: url(../images/box-bg-1.jpg);
+    background-position: top;
+    background-webkit-transform: rotate(180deg);
+    background-transform: rotate(180deg);
+    position: relative;
+    overflow: hidden;
+}
+/*.container-fluid.bg-white.tada-container {
+    padding: 5em 0em 5em 0em;
+}*/
+
+.container-fluid.tada-container {
+    padding: 5em 1em 5em 1em;
+}
 
 /*ABOUT CSS*/
 .tada-section {
     padding: 1em;
 }
 .tada-header {
-    padding: 2em 0em 0em 2em;
+    padding: 0em 0em 5em 0em;
 }
 .tada-img {
     padding: 0em;
@@ -151,8 +187,7 @@ input[type="submit"] {
     background: lightsteelblue;
 }
 .form-container {
-    padding: 1em;
-    color: white;
+    padding: 8em 1em 8em 1em;
 }
 .form-input {
     margin: 0.3em 0em 0.3em 0em;
@@ -160,36 +195,7 @@ input[type="submit"] {
     border-radius: .2em;
 }
 
-/*MAIN CONTENT CSS*/
-.main-content {
-    background-color: #F5F5F5;
-}
-.tada-main-box {
-    padding: 1em;
-}
-.tada-main-box-two {
-    padding: 1em;
-}
-span.display-none-mobile {
-    display: none;
-}
-.tada-bg-blue {
-    background-color: #7298B5;
-    /*background-color: #B6B9C7;*/
-}
-.tada-bg-box {
-    border: solid;
-    color: white;
-}
-.tada-bg-box-img {
-    background: url(../images/box-bg-1.jpg);
-    background-position: top;
-    background-webkit-transform: rotate(180deg);
-    background-transform: rotate(180deg);
-    position: relative;
-    overflow: hidden;
 
-}
 
 
 /*// Extra small devices (portrait phones, less than 576px)
@@ -318,7 +324,7 @@ span.display-none-mobile {
         padding: 5em;
     }
     .tada-header {
-        padding: 5em 2em 2em 5em;
+        padding: 0em 1em 10em 1em;
     }
     .tada-main-box {
         padding: 1em 1em 1em 1em;
