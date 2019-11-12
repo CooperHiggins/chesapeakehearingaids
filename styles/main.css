@@ -18,14 +18,34 @@ body {
 a.navbar-brand.white-text {
     color: white;
 }
+.navbar-brand.white-text, a:hover {
+    color: white;
+}
 a.btn.btn-default.nav-link.white-text {
     color: white;
 }
 a.navbar-brand {
     font-size: .9em;
-    color: black;
+    color: white;
     font-family: 'Arimo', sans-serif;
     padding-top: 3%;
+    padding-bottom: 0em;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
 }
 
 
@@ -49,7 +69,7 @@ span.carousel-control-next-icon {
     font-family: 'Arimo', sans-serif;
 }
 .tada-carousel-override {
-    padding-top: 5%;
+    padding-top: 10%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -65,7 +85,7 @@ span.carousel-control-next-icon {
     width: 100%;
 }
 .carousel-caption h5, p {
-    font-size: 1em;
+    font-size: 2em;
 }
 span.cursive {
     font-family: Cursive, sans-serif;
