@@ -18,6 +18,9 @@ body {
 a.navbar-brand.white-text {
     color: white;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
 .navbar-brand.white-text, a:hover {
     color: white;
 }
@@ -28,7 +31,7 @@ a.navbar-brand {
     font-size: .9em;
     color: white;
     font-family: 'Arimo', sans-serif;
-    padding-top: 3%;
+    padding-top: 0%;
     padding-bottom: 0em;
 }
 .navbar-light .navbar-brand {
@@ -292,8 +295,24 @@ span.display-none-mobile {
     h2.carousel-brand {
         font-size: 4em;
     }
+    .tada-carousel-override {
+        padding-top: 5%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .tada-carousel-override-two {
+        padding-top: 10%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
     .carousel-caption h5, p {
-        font-size: 2em;
+        font-size: 4em;
     }
     .tada-section {
         padding: 5em;
