@@ -341,11 +341,11 @@ footer p {
     }
     /*carousel height and carousel image height*/
     .carousel-images {
-        height: 39em;
+        height: 37em;
     }
     .carousel-item.active {
         display: block;
-        min-height: 39em;
+        min-height: 37em;
     }
     .tada-section {
         padding: 3em;
