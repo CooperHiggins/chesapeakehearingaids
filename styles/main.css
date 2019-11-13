@@ -50,7 +50,9 @@ a.navbar-brand {
         margin-bottom: 0;
     }
 }
-
+a.nav-link {
+    font-size: 1.2em;
+}
 
 /*Carousel CSS*/
 span.carousel-control-prev-icon {
@@ -72,7 +74,7 @@ span.carousel-control-next-icon {
     font-family: 'Arimo', sans-serif;
 }
 .tada-carousel-override {
-    padding-top: 10%;
+    padding-top: 15%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -89,6 +91,7 @@ span.carousel-control-next-icon {
 }
 .carousel-caption h5, p {
     font-size: 2em;
+    font-family: 'Libre Baskerville', serif;
 }
 span.cursive {
     font-family: Cursive, sans-serif;
@@ -96,8 +99,13 @@ span.cursive {
 h2.carousel-brand {
   font-size: 1em;
 }
+/*carousel height and carousel image height*/
 .carousel-images {
-    max-height: 15em;
+    height: 39em;
+}
+.carousel-item.active {
+    display: block;
+    min-height: 39em;
 }
 
 /*MAIN CONTENT CSS*/
@@ -204,20 +212,13 @@ input[type="submit"] {
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     /*Carousel CSS*/
-    .carousel-item {
-        height: 30em;
-        width: 100%;
-    }
+    
     div#carouselExampleCaptions {
         height: 100%;
     }
     /*FORM SECTION CSS*/
     .form-input {
         margin: .3em;
-    }
-    .carousel-images {
-        max-height: 30em;
-        min-height: 15em;
     }
     a.call-button {
         font-size: 1.5em;
@@ -302,7 +303,7 @@ input[type="submit"] {
         font-size: 4em;
     }
     .tada-carousel-override {
-        padding-top: 5%;
+        padding-top: 10%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -318,7 +319,7 @@ input[type="submit"] {
         width: 100%;
     }
     .carousel-caption h5, p {
-        font-size: 4em;
+        font-size: 5em;
     }
     .tada-section {
         padding: 5em;
