@@ -20,6 +20,8 @@ a.navbar-brand.white-text {
 }
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-size: 1.2em;
+    font-family: 'Libre Baskerville', serif;
 }
 .navbar-brand.white-text, a:hover {
     color: white;
@@ -33,6 +35,12 @@ a.navbar-brand {
     font-family: 'Arimo', sans-serif;
     padding-top: 0%;
     padding-bottom: 0em;
+}
+span.brand-text {
+    vertical-align: text-bottom;
+    contain: content;
+    align-content: center;
+    content: inherit;
 }
 .navbar-light .navbar-brand {
     color: white;
@@ -50,8 +58,11 @@ a.navbar-brand {
         margin-bottom: 0;
     }
 }
-a.nav-link {
+.nav a {
     font-size: 1.2em;
+}
+.close {
+  display: none;
 }
 
 /*Carousel CSS*/
@@ -74,7 +85,7 @@ span.carousel-control-next-icon {
     font-family: 'Arimo', sans-serif;
 }
 .tada-carousel-override {
-    padding-top: 15%;
+    padding-top: 70%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -82,7 +93,7 @@ span.carousel-control-next-icon {
     width: 100%;
 }
 .tada-carousel-override-two {
-    padding-top: 15%;
+    padding-top: 50%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -101,11 +112,11 @@ h2.carousel-brand {
 }
 /*carousel height and carousel image height*/
 .carousel-images {
-    height: 39em;
+    height: 45em;
 }
 .carousel-item.active {
     display: block;
-    min-height: 39em;
+    min-height: 45em;
 }
 
 /*MAIN CONTENT CSS*/
@@ -142,7 +153,7 @@ span.display-none-mobile {
 }*/
 
 .container-fluid.tada-container {
-    padding: 5em 1em 5em 1em;
+    padding: 5em 1em 10em 1em;
 }
 
 /*ABOUT CSS*/
@@ -201,6 +212,11 @@ input[type="submit"] {
     margin: 0.3em 0em 0.3em 0em;
     border: solid .1em aliceblue;
     border-radius: .2em;
+}
+
+/*FOOTER CSS*/
+footer p {
+  font-size: 1em;
 }
 
 
@@ -288,6 +304,7 @@ input[type="submit"] {
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+  /*NAVBAR CSS*/
     a.navbar-brand {
         font-size: .9em;
         color: black;
@@ -299,6 +316,7 @@ input[type="submit"] {
         color: black;
         font-family: 'Arimo', sans-serif;
     }
+    /*CAROUSEL CSS*/
     h2.carousel-brand {
         font-size: 4em;
     }
@@ -311,7 +329,7 @@ input[type="submit"] {
         width: 100%;
     }
     .tada-carousel-override-two {
-        padding-top: 10%;
+        padding-top: 15%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -321,11 +339,22 @@ input[type="submit"] {
     .carousel-caption h5, p {
         font-size: 5em;
     }
+    /*carousel height and carousel image height*/
+    .carousel-images {
+        height: 39em;
+    }
+    .carousel-item.active {
+        display: block;
+        min-height: 39em;
+    }
     .tada-section {
-        padding: 5em;
+        padding: 3em;
+    }
+    .tada-section-title {
+      font-size: 4em;
     }
     .tada-header {
-        padding: 0em 1em 10em 1em;
+        padding: 0em 0em 7em 0em;
     }
     .tada-main-box {
         padding: 1em 1em 1em 1em;

@@ -6,5 +6,20 @@ $(document).ready(function(){
         if(dropdownMenu.is(":visible")){
             dropdownMenu.parent().toggleClass("open");
         }
+        else(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});   
+
+$(document).ready(function(){
+    $(".dropdown, .btn-group").onClick(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+        else(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("close");
+        }
     });
 });    
