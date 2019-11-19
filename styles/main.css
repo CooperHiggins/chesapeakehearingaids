@@ -201,6 +201,11 @@ button.btn.btn-lg.btn-default.about-btn {
     color: white;
 }
 
+/* CONTACT */
+p.contact {
+    font-size: 1.2em;
+}
+
 /*FORM SECTION CSS*/
 input[type="submit"] {
     background: lightsteelblue;
