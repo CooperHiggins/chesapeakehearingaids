@@ -66,6 +66,12 @@ span.brand-text {
 }
 
 /*Carousel CSS*/
+a#arrow {
+    color: #7298B5;
+}
+a#arrow:hover {
+    color: white;
+}
 span.carousel-control-prev-icon {
     background-image: none;
 }
@@ -204,6 +210,9 @@ button.btn.btn-lg.btn-default.about-btn {
 /* CONTACT */
 p.contact {
     font-size: 1.2em;
+}
+p.tada-contact-p {
+    font-size: 1.5em;
 }
 
 /*FORM SECTION CSS*/
