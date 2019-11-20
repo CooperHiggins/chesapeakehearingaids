@@ -163,6 +163,9 @@ span.display-none-mobile {
 }
 
 /*ABOUT CSS*/
+p.contact-p {
+    font-size: 1.5em;
+}
 .tada-section {
     padding: 1em;
 }
@@ -335,7 +338,7 @@ footer p {
         font-size: 4em;
     }
     .tada-carousel-override {
-        padding-top: 10%;
+        padding-top: 9%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -351,7 +354,7 @@ footer p {
         width: 100%;
     }
     .carousel-caption h5, p {
-        font-size: 3.5em;
+        font-size: 4.5em;
     }
     /*carousel height and carousel image height*/
     .carousel-images {
