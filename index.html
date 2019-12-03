@@ -28,6 +28,35 @@
     
   </head>
 
+  <!-- jQuery -->
+  <script rel="no-referer" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>
+                $(document).ready(function(){
+                  // Add smooth scrolling to all links
+                  $("a#arrow").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                      // Prevent default anchor click behavior
+                      event.preventDefault();
+
+                      // Store hash
+                      var hash = this.hash;
+
+                      // Using jQuery's animate() method to add smooth page scroll
+                      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                      $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                      }, 800, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                      });
+                    } // End if
+                  });
+                });
+    </script>
+
 
   <body class="main-content">
     <!--[if IE]>
@@ -142,7 +171,7 @@
 
 <section id="about">
 <div class="tada-section">
-  <div class="container-fluid tada-container">
+  <div class="container-fluid tada-container bg-white">
 
   <div class="row tada-header">
         <div class="col text-center">
@@ -196,7 +225,7 @@
 </div>
 </section>
 
-<div class="container-fluid bg-white">
+<div class="container-fluid">
       <div class="row">
 
         <div class="col-12 col-sm-6">
@@ -215,7 +244,7 @@
       </div><!-- ROW -->
 </div><!-- container-fluid main-content -->
 
-<div class="container-fluid">
+<div class="container-fluid bg-white">
       <div class="row">
 
         <div class="col-sm-6 order-sm-12">
@@ -291,35 +320,6 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-
-    <!-- jQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>
-                  $(document).ready(function(){
-                    // Add smooth scrolling to all links
-                    $("a#arrow").on('click', function(event) {
-
-                      // Make sure this.hash has a value before overriding default behavior
-                      if (this.hash !== "") {
-                        // Prevent default anchor click behavior
-                        event.preventDefault();
-
-                        // Store hash
-                        var hash = this.hash;
-
-                        // Using jQuery's animate() method to add smooth page scroll
-                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                        $('html, body').animate({
-                          scrollTop: $(hash).offset().top
-                        }, 800, function(){
-
-                          // Add hash (#) to URL when done scrolling (default click behavior)
-                          window.location.hash = hash;
-                        });
-                      } // End if
-                    });
-                  });
-      </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 

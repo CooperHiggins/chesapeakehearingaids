@@ -91,7 +91,7 @@ span.carousel-control-next-icon {
     font-family: 'Arimo', sans-serif;
 }
 .tada-carousel-override {
-    padding-top: 70%;
+    padding-top: 55%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -218,6 +218,11 @@ p.tada-contact-p {
     font-size: 1.5em;
 }
 
+/* HEARING AIDS  */
+p.hearing-aids {
+    font-size: 1.5em;
+}
+
 /*FORM SECTION CSS*/
 input[type="submit"] {
     background: lightsteelblue;
@@ -281,10 +286,16 @@ footer p {
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
     .tada-main-box {
-        padding: 1em 1em 1em 1em;
+        padding: 2em 1em 1em 1em;
     }
     .tada-main-box-two {
         padding: 2em 1em 1em 1em;
+    }
+    p.hearing-aids {
+        font-size: 1em;
+    }
+    p.tada-contact-p {
+        font-size: 1em;
     }
     .tada-bg-box {
         border: solid;
@@ -292,6 +303,14 @@ footer p {
         background: url(../images/box-bg-1.jpg);
         background-position: top;
         color: white;
+    }
+    .tada-carousel-override {
+        padding-top: 30%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -309,6 +328,12 @@ footer p {
     .tada-main-box-two {
         padding: 3em 1em 1em 1em;
     }
+    p.hearing-aids {
+        font-size: 1.5em;
+    }
+    p.tada-contact-p {
+        font-size: 1.5em;
+    }s
     .tada-bg-box {
         border: solid;
         background: url(../images/box-bg-1.jpg);
