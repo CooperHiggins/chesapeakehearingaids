@@ -107,14 +107,14 @@ span.carousel-control-next-icon {
     width: 100%;
 }
 .carousel-caption h5, p {
-    font-size: 2em;
+    font-size: 1.2em;
     font-family: 'Libre Baskerville', serif;
 }
 span.cursive {
     font-family: Cursive, sans-serif;
 }
 h2.carousel-brand {
-  font-size: 1em;
+  font-size: 2.5em;
 }
 /*carousel height and carousel image height*/
 .carousel-images {
@@ -312,6 +312,13 @@ footer p {
         height: 100%;
         width: 100%;
     }
+    h2.carousel-brand {
+        font-size: 3em;
+    }
+    .carousel-caption h5, p {
+        font-size: 1.8em;
+        font-family: 'Libre Baskerville', serif;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -360,7 +367,7 @@ footer p {
     }
     /*CAROUSEL CSS*/
     h2.carousel-brand {
-        font-size: 4em;
+        font-size: 5em;
     }
     .tada-carousel-override {
         padding-top: 9%;
@@ -379,7 +386,7 @@ footer p {
         width: 100%;
     }
     .carousel-caption h5, p {
-        font-size: 4.5em;
+        font-size: 3em;
     }
     /*carousel height and carousel image height*/
     .carousel-images {
