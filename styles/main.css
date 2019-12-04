@@ -13,6 +13,18 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
+/* CALL TO ACTION SECTION */
+a.call-button {
+    font-size: 1rem;
+    display: flex;
+}
+a.call-to-action {
+    color: #000;
+}
+a.call-to-action:hover {
+    color: #000;
+    text-decoration: underline;
+}
 
 /*NAVIGATION CSS*/
 a.navbar-brand.white-text {
@@ -26,13 +38,9 @@ a.navbar-brand.white-text {
 .navbar-brand.white-text, a:hover {
     color: white;
 }
-a.btn.btn-default.nav-link.white-text {
-    color: white;
-}
 a.navbar-brand {
     font-size: .9em;
     color: white;
-    font-family: 'Arimo', sans-serif;
     padding-top: 0%;
     padding-bottom: 0em;
 }
@@ -40,6 +48,7 @@ span.brand-text {
     vertical-align: text-bottom;
     contain: content;
     align-content: center;
+    font-family: 'Libre Baskerville', serif;
     content: inherit;
 }
 .navbar-light .navbar-brand {
@@ -108,13 +117,14 @@ span.carousel-control-next-icon {
 }
 .carousel-caption h5, p {
     font-size: 1.2em;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Arimo', serif;
 }
 span.cursive {
     font-family: Cursive, sans-serif;
 }
 h2.carousel-brand {
   font-size: 2.5em;
+  font-family: 'Libre Baskerville', serif;
 }
 /*carousel height and carousel image height*/
 .carousel-images {
@@ -258,9 +268,6 @@ footer p {
     .form-input {
         margin: .3em;
     }
-    a.call-button {
-        font-size: 1.5em;
-    }
     span.display-none-mobile {
         display: inherit;
     }
@@ -305,7 +312,7 @@ footer p {
         color: white;
     }
     .tada-carousel-override {
-        padding-top: 30%;
+        padding-top: 25%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -317,7 +324,6 @@ footer p {
     }
     .carousel-caption h5, p {
         font-size: 1.8em;
-        font-family: 'Libre Baskerville', serif;
     }
 }
 
@@ -363,7 +369,7 @@ footer p {
     a.navbar-brand {
         font-size: 1.5em;
         color: black;
-        font-family: 'Arimo', sans-serif;
+        font-family: 'Libre Bakersville', sans-serif;
     }
     /*CAROUSEL CSS*/
     h2.carousel-brand {
