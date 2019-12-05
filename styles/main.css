@@ -312,7 +312,7 @@ footer p {
         color: white;
     }
     .tada-carousel-override {
-        padding-top: 25%;
+        padding-top: 20%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -320,10 +320,10 @@ footer p {
         width: 100%;
     }
     h2.carousel-brand {
-        font-size: 3em;
+        font-size: 4em;
     }
     .carousel-caption h5, p {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 }
 
@@ -376,7 +376,7 @@ footer p {
         font-size: 5em;
     }
     .tada-carousel-override {
-        padding-top: 9%;
+        padding-top: 6%;
         left: 0;
         right: 0;
         bottom: 0;
