@@ -232,6 +232,22 @@ p.tada-contact-p {
 p.hearing-aids {
     font-size: 1.5em;
 }
+.manufacturer-btn {
+    width: 100%;
+    color: white;
+    background-color: #CE6152;
+    padding: 1em;
+}
+.manufacturer-btn:hover {
+    width: 100%;
+    color: black;
+    background-color: #CE6152;
+    padding: 1em;
+}
+.manufacturer-images {
+    min-height: 13em;
+    width: 100%;
+}
 
 /*FORM SECTION CSS*/
 input[type="submit"] {
@@ -250,8 +266,6 @@ input[type="submit"] {
 footer p {
   font-size: 1em;
 }
-
-
 
 
 /*// Extra small devices (portrait phones, less than 576px)
