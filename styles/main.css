@@ -251,6 +251,12 @@ p.hearing-aids {
 .hearing-aid-manufacturer-box {
     padding: 3em;
 }
+.hearing-aid-style-img {
+    margin: auto 0;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+}
 /* END HEARING AIDS */
 
 /* MANUFACTURER PAGES */
