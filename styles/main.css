@@ -170,7 +170,7 @@ span.display-none-mobile {
 }*/
 
 .container-fluid.tada-container {
-    padding: 5em 1em 10em 1em;
+    padding: 5em 1em 10em 2em;
 }
 
 /*ABOUT CSS*/
@@ -391,7 +391,7 @@ footer p {
         font-size: 5em;
     }
     .tada-carousel-override {
-        padding-top: 6%;
+        padding-top: 10%;
         left: 0;
         right: 0;
         bottom: 0;
