@@ -254,10 +254,7 @@ p.hearing-aids {
 /* END HEARING AIDS */
 
 /* MANUFACTURER PAGES */
-.resound-container-image {
-    
-    object-fit: cover;
-}
+
 .manufacturer-text {
     padding: 2em;
 }
@@ -323,6 +320,11 @@ footer p {
     }
     .hearing-aid-manufacturer-box {
         padding: .5rem!important;
+    }
+    /* MANUFACTURER PAGE */
+    .resound-container-image {
+        height: fit-content;
+        object-fit: cover;
     }
 
 }
