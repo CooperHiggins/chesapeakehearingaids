@@ -71,8 +71,9 @@ span.brand-text {
 .nav a {
     font-size: 1.2em;
 }
-.close {
-  display: none;
+button {
+    font-family: 'Arimo', helvetica;
+    font-weight: bold;
 }
 
 /*Carousel CSS*/
@@ -151,7 +152,6 @@ span.display-none-mobile {
 }
 .tada-bg-blue {
     background-color: #7298B5;
-    /*background-color: #B6B9C7;*/
 }
 .tada-bg-box {
     border: solid;
@@ -165,12 +165,11 @@ span.display-none-mobile {
     position: relative;
     overflow: hidden;
 }
-/*.container-fluid.bg-white.tada-container {
-    padding: 5em 0em 5em 0em;
-}*/
-
-.container-fluid.tada-container {
-    padding: 5em 1em 10em 2em;
+p.tada-bg-box-text {
+    font-size: 1rem;
+}
+.tada-container {
+    padding: 5em 1em 10em 1em;
 }
 
 /*ABOUT CSS*/
@@ -249,6 +248,9 @@ p.hearing-aids {
     min-height: 13em;
     width: 100%;
 }
+.hearing-aid-manufacturer-box {
+    padding: 3em;
+}
 
 /*FORM SECTION CSS*/
 input[type="submit"] {
@@ -274,8 +276,8 @@ footer p {
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
+
     /*Carousel CSS*/
-    
     div#carouselExampleCaptions {
         height: 100%;
     }
@@ -295,12 +297,21 @@ footer p {
     .tada-main-box-two {
         padding: 1em 0em 0em 0em;
     }
+    .tada-container {
+        padding: 5em 3em 10em 3em;
+    }
     .tada-bg-box {
         border: solid;
         /*padding: 5em 15em 5em 15em;*/
         background: url(../images/box-bg-1.jpg);
         background-position: top;
         color: white;
+    }
+    p.tada-bg-box-text {
+        font-size: 2rem;
+    }
+    .hearing-aid-manufacturer-box {
+        padding: .5rem!important;
     }
 
 }
