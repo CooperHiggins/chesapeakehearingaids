@@ -237,6 +237,8 @@ p.hearing-aids {
     color: white;
     background-color: #CE6152;
     padding: 1em;
+    font-weight: bolder;
+    border: none;
 }
 .manufacturer-btn:hover {
     width: 100%;
@@ -256,6 +258,10 @@ p.hearing-aids {
     vertical-align: middle;
     justify-content: center;
     display: flex;
+}
+button.btn-default.manufacturer-btn.text-uppercase:hover {
+    -webkit-transition: .5s;
+    font-size: 1.1em;
 }
 /* END HEARING AIDS */
 
