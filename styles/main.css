@@ -195,7 +195,7 @@ p.contact-p {
     display: inline-block;
 }
 .row.text-center {
-  display: inline-flex;
+    display: inline-flex;
 }
 button.btn.btn-lg.btn-default.about-btn {
     border: .2em solid #7298B5;
@@ -251,6 +251,17 @@ p.hearing-aids {
 .hearing-aid-manufacturer-box {
     padding: 3em;
 }
+/* END HEARING AIDS */
+
+/* MANUFACTURER PAGES */
+.resound-container-image {
+    
+    object-fit: cover;
+}
+.manufacturer-text {
+    padding: 2em;
+}
+/* END MANUFACTURER PAGES */
 
 /*FORM SECTION CSS*/
 input[type="submit"] {
@@ -378,6 +389,10 @@ footer p {
         background: url(../images/box-bg-1.jpg);
         background-position: top;
         color: white;
+    }
+    .resound-container-image {
+        height: max-content;
+        object-fit: cover;
     }
   
     
