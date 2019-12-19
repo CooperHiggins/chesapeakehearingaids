@@ -259,6 +259,16 @@ p.hearing-aids {
     justify-content: center;
     display: flex;
 }
+.youtube-video {
+    margin: auto;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+}
+iframe {
+    width: 100%;
+}
 button.btn-default.manufacturer-btn.text-uppercase:hover {
     -webkit-transition: .5s;
     font-size: 1.1em;
@@ -337,6 +347,9 @@ footer p {
     .resound-container-image {
         height: fit-content;
         object-fit: cover;
+    }
+    iframe {
+        width: 500px;
     }
 
 }
