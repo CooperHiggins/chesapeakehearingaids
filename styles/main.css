@@ -28,6 +28,10 @@ a.call-to-action:hover {
 }
 
 /*NAVIGATION CSS*/
+/* i.fa.fa-2x.fa-assistive-listening-systems {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+} */
 a.navbar-brand.white-text {
     color: white;
 }
@@ -231,6 +235,9 @@ p.tada-contact-p {
 /* HEARING AIDS  */
 p.hearing-aids {
     font-size: 1.5em;
+}
+p.widex-hearing-aids {
+    font-size: 1em;
 }
 .manufacturer-btn {
     width: 100%;
