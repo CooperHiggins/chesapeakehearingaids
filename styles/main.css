@@ -28,10 +28,10 @@ a.call-to-action:hover {
 }
 
 /*NAVIGATION CSS*/
-/* i.fa.fa-2x.fa-assistive-listening-systems {
+i.fa.fa-2x.fa-assistive-listening-systems {
     transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
-} */
+}
 a.navbar-brand.white-text {
     color: white;
 }
