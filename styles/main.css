@@ -35,11 +35,6 @@ i.fa.fa-2x.fa-assistive-listening-systems {
 a.navbar-brand.white-text {
     color: white;
 }
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-    font-size: 1.2em;
-    font-family: 'Libre Baskerville', serif;
-}
 .navbar-brand.white-text, a:hover {
     color: white;
 }
@@ -56,7 +51,27 @@ span.brand-text {
     font-family: 'Libre Baskerville', serif;
     content: inherit;
 }
-.navbar-light .navbar-brand {
+a.nav-link {
+    vertical-align: text-bottom;
+    contain: content;
+    align-content: center;
+    font-family: 'Libre Baskerville', serif;
+    content: inherit;
+    color: #CE6152;
+    font-size: 1.2em;
+}
+a.nav-link:hover {
+    vertical-align: text-bottom;
+    contain: content;
+    align-content: center;
+    font-family: 'Libre Baskerville', serif;
+    content: inherit;
+    color: black;
+}
+a.navbar-brand.text-uppercase {
+    color: white;
+}
+a.navbar-brand.text-uppercase:hover {
     color: white;
 }
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
@@ -72,6 +87,7 @@ span.brand-text {
         margin-bottom: 0;
     }
 }
+
 .nav a {
     font-size: 1.2em;
 }
@@ -82,10 +98,7 @@ button {
 
 /*Carousel CSS*/
 a#arrow {
-    color: #7298B5;
-}
-a#arrow:hover {
-    color: white;
+    color: #CE6152;
 }
 span.carousel-control-prev-icon {
     background-image: none;
@@ -202,12 +215,12 @@ p.contact-p {
     display: inline-flex;
 }
 button.btn.btn-lg.btn-default.about-btn {
-    border: .2em solid #7298B5;
+    border: .2em solid #CE6152;
     border-radius: 2em;
     margin: 1em;
 }
 .btn-lg.about-btn {
-    border: .2em solid #7298B5;
+    border: .2em solid #CE6152;
     border-radius: 2em;
     margin: 1em;
 }
@@ -217,10 +230,10 @@ button.btn.btn-lg.btn-default.about-btn {
     margin: 1em;
 }
 :hover.btn-lg.about-btn {
-    border: .2em solid #7298B5;
+    border: .2em solid #CE6152;
     border-radius: 2em;
     margin: 1em;
-    background-color: #7298B5;
+    background-color: #CE6152;
     color: white;
 }
 
@@ -291,7 +304,7 @@ button.btn-default.manufacturer-btn.text-uppercase:hover {
 
 /*FORM SECTION CSS*/
 input[type="submit"] {
-    background: lightsteelblue;
+    background: #CE6152;
 }
 .form-container {
     padding: 8em 1em 8em 1em;
@@ -437,13 +450,13 @@ footer p {
   /*NAVBAR CSS*/
     a.navbar-brand {
         font-size: .9em;
-        color: black;
+        color: white;
         font-family: 'Arimo', sans-serif;
         padding-top: 0%;
     }
     a.navbar-brand {
         font-size: 1.5em;
-        color: black;
+        color: white;
         font-family: 'Libre Bakersville', sans-serif;
     }
     /*CAROUSEL CSS*/
