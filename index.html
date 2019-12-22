@@ -34,7 +34,7 @@
   <script>
                 $(document).ready(function(){
                   // Add smooth scrolling to all links
-                  $("a#arrow").on('click', function(event) {
+                  $("a#arrow, a#appointment-btn").on('click', function(event) {
 
                     // Make sure this.hash has a value before overriding default behavior
                     if (this.hash !== "") {
@@ -147,7 +147,9 @@
           <!-- <p><span class="cursive">Providing you with</span></p> -->
           <!-- <p>Amazing hearing instruments and wireless technologies to fit your lifestyle</p> -->
           <!-- <p class="text-uppercase">Amazing hearing instruments </br>and  technology</p> -->
-          <p class="text-uppercase">Begin your journey to<br> better hearing</p>
+          <p class="text-uppercase">Begin your journey to better hearing</p>
+          <p class="text-uppercase small-carousel-text">We strive to help you conquer your hearing loss<br> to reach your full hearing potential, 
+            so you can connect with the sounds you love!</p>
           <a href="#about" id="arrow"><i class="fa fa-3x fa-arrow-down"></i></a>
         </div>
       </div>
@@ -222,7 +224,7 @@
               </div>
                 </br>
               <div class="row text-center">
-                <a href="#appointments"><button class="btn-lg about-btn">Appointments</button></a> 
+                <a href="#appointments" id="appointment-btn"><button class="btn-lg about-btn">Appointments</button></a> 
               </div>
             </div>
         </div>

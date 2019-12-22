@@ -118,6 +118,9 @@ span.carousel-control-next-icon {
     background: radial-gradient(black, transparent);
     font-family: 'Arimo', sans-serif;
 }
+p.text-uppercase.small-carousel-text {
+    font-size: 1em;
+}
 .tada-carousel-override {
     padding-top: 55%;
     left: 0;
@@ -464,7 +467,7 @@ footer p {
         font-size: 5em;
     }
     .tada-carousel-override {
-        padding-top: 10%;
+        padding-top: 6%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -498,6 +501,7 @@ footer p {
     }
     .tada-header {
         padding: 0em 0em 7em 0em;
+        color: #CE6152;
     }
     .tada-main-box {
         padding: 1em 1em 1em 1em;
