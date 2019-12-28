@@ -59,7 +59,7 @@ a.navbar-brand {
     padding-bottom: 0em;
 }
 span.brand-text {
-    /* vertical-align: text-bottom; */
+    vertical-align: text-top;
     contain: content;
     align-content: center;
     font-family: 'Libre Baskerville', serif;
