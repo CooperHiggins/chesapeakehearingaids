@@ -15,8 +15,23 @@ body {
 }
 :root {
     --tada-blue: #0054A6;
-    --tada-coral: #CE6152;
+    /* --tada-coral: #CE6152; v1*/
+    --tada-coral: #F2343C;
+    --main-bg:  #F5F5F5;
 }
+/* colors */
+.tada-bg-blue {
+    /* background-color: #7298B5; V1*/ 
+    background-color: var(--tada-blue);
+}
+.bg-blue {
+    background-color: var(--tada-blue);
+}
+.main-content {
+    background-color: var(--main-bg);
+}
+/* colors */
+
 
 /* CALL TO ACTION SECTION */
 a.call-button {
@@ -33,6 +48,9 @@ a.call-to-action:hover {
 .bg-tada-blue {
     background-color: var(--tada-blue);
 }
+/* END CALL TO ACTION CSS */
+
+
 /*NAVIGATION CSS*/
 i.fa.fa-2x.fa-assistive-listening-systems {
     transform: scaleX(-1);
@@ -72,7 +90,7 @@ a.nav-link {
     align-content: center;
     font-family: 'Libre Baskerville', serif;
     content: inherit;
-    color: #CE6152;
+    color: var(--tada-coral);
     font-size: 1.2em;
 }
 a.nav-link:hover {
@@ -111,16 +129,7 @@ button {
     font-weight: bold;
 }
 
-/*Carousel CSS*/
-a#arrow {
-    color: #CE6152;
-}
-span.carousel-control-prev-icon {
-    background-image: none;
-}
-span.carousel-control-next-icon {
-    background-image: none;
-}
+/*CAROUSEL CSS*/
 .carousel-caption {
     position: absolute;
     right: 15%;
@@ -171,21 +180,18 @@ h2.carousel-brand {
     display: block;
     min-height: 45em;
 }
+a#arrow {
+    color: var(--tada-coral);
+}
+span.carousel-control-prev-icon {
+    background-image: none;
+}
+span.carousel-control-next-icon {
+    background-image: none;
+}
+/* END CAROUSEL CSS */
 
 /*MAIN CONTENT CSS*/
-/* colors */
-.tada-bg-blue {
-    /* background-color: #7298B5; V1*/ 
-    background-color: #3b8ede;
-}
-.bg-blue {
-    background-color: #3b8ede;
-}
-.main-content {
-    background-color: #F5F5F5;
-}
-/* colors */
-
 .tada-main-box {
     padding: 1em;
 }
@@ -214,6 +220,8 @@ p.tada-bg-box-text {
 .tada-container {
     padding: 5em 1em 10em 1em;
 }
+/* END MAIN CONTENT CSS */
+
 
 /*ABOUT CSS*/
 p.contact-p {
@@ -241,12 +249,12 @@ p.contact-p {
     display: inline-flex;
 }
 button.btn.btn-lg.btn-default.about-btn {
-    border: .2em solid #CE6152;
+    border: .2em solid var(--tada-coral);
     border-radius: 2em;
     margin: 1em;
 }
 .btn-lg.about-btn {
-    border: .2em solid #CE6152;
+    border: .2em solid var(--tada-coral);
     border-radius: 2em;
     margin: 1em;
 }
@@ -256,20 +264,24 @@ button.btn.btn-lg.btn-default.about-btn {
     margin: 1em;
 }
 :hover.btn-lg.about-btn {
-    border: .2em solid #CE6152;
+    border: .2em solid var(--tada-coral);
     border-radius: 2em;
     margin: 1em;
-    background-color: #CE6152;
+    background-color: var(--tada-coral);
     color: white;
 }
+/* END ABOUT SECTION CSS */
 
-/* CONTACT */
+
+/* CONTACT SECTION CSS */
 p.contact {
     font-size: 1em;
 }
 p.tada-contact-p {
     font-size: 1.5em;
 }
+/* END CONTACT SECTION */
+
 
 /* HEARING AIDS  */
 p.hearing-aids {
@@ -281,7 +293,7 @@ p.widex-hearing-aids {
 .manufacturer-btn {
     width: 100%;
     color: white;
-    background-color: #CE6152;
+    background-color: var(--tada-coral);
     padding: 1em;
     font-weight: bolder;
     border: none;
@@ -289,7 +301,7 @@ p.widex-hearing-aids {
 .manufacturer-btn:hover {
     width: 100%;
     color: black;
-    background-color: #CE6152;
+    background-color: var(--tada-coral);
     padding: 1em;
 }
 .manufacturer-images {
@@ -321,16 +333,17 @@ button.btn-default.manufacturer-btn.text-uppercase:hover {
 }
 /* END HEARING AIDS */
 
-/* MANUFACTURER PAGES */
 
+/* MANUFACTURER PAGES */
 .manufacturer-text {
     padding: 2em;
 }
 /* END MANUFACTURER PAGES */
 
+
 /*FORM SECTION CSS*/
 input[type="submit"] {
-    background: #CE6152;
+    background: var(--tada-coral);
 }
 .form-container {
     padding: 8em 1em 8em 1em;
@@ -340,11 +353,14 @@ input[type="submit"] {
     border: solid .1em aliceblue;
     border-radius: .2em;
 }
+/* END FORM CSS */
+
 
 /*FOOTER CSS*/
 footer p {
-  font-size: 1em;
+    font-size: 1em;
 }
+/* END FOOTER CSS */
 
 
 /*// Extra small devices (portrait phones, less than 576px)
