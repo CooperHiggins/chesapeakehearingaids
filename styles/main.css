@@ -13,6 +13,10 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
+:root {
+    --tada-blue: #0054A6;
+    --tada-coral: #CE6152;
+}
 
 /* CALL TO ACTION SECTION */
 a.call-button {
@@ -20,17 +24,27 @@ a.call-button {
     display: flex;
 }
 a.call-to-action {
-    color: #000;
+    color: white;
 }
 a.call-to-action:hover {
     color: #000;
     text-decoration: underline;
 }
-
+.bg-tada-blue {
+    background-color: var(--tada-blue);
+}
 /*NAVIGATION CSS*/
 i.fa.fa-2x.fa-assistive-listening-systems {
     transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
+}
+.logo {
+    width: auto;
+    height: 2em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+    /* color: white; */
 }
 a.navbar-brand.white-text {
     color: white;
@@ -45,11 +59,12 @@ a.navbar-brand {
     padding-bottom: 0em;
 }
 span.brand-text {
-    vertical-align: text-bottom;
+    /* vertical-align: text-bottom; */
     contain: content;
     align-content: center;
     font-family: 'Libre Baskerville', serif;
     content: inherit;
+    color: black;
 }
 a.nav-link {
     vertical-align: text-bottom;
@@ -158,9 +173,19 @@ h2.carousel-brand {
 }
 
 /*MAIN CONTENT CSS*/
+/* colors */
+.tada-bg-blue {
+    /* background-color: #7298B5; V1*/ 
+    background-color: #3b8ede;
+}
+.bg-blue {
+    background-color: #3b8ede;
+}
 .main-content {
     background-color: #F5F5F5;
 }
+/* colors */
+
 .tada-main-box {
     padding: 1em;
 }
@@ -170,9 +195,7 @@ h2.carousel-brand {
 span.display-none-mobile {
     display: none;
 }
-.tada-bg-blue {
-    background-color: #7298B5;
-}
+
 .tada-bg-box {
     border: solid;
     color: white;
@@ -444,7 +467,6 @@ footer p {
         height: max-content;
         object-fit: cover;
     }
-  
     
  }
 
