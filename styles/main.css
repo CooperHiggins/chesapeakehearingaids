@@ -24,6 +24,9 @@ body {
     /* background-color: #7298B5; V1*/ 
     background-color: var(--tada-blue);
 }
+.tada-font-coral {
+    color: var(--tada-coral);
+}
 .bg-blue {
     background-color: var(--tada-blue);
 }
@@ -137,9 +140,9 @@ button {
     left: 15%;
     z-index: 10;
     padding-bottom: 20px;
-    color: white;
+    color: black;
     text-align: center;
-    background: radial-gradient(black, transparent);
+    background: rgba(0,0,0, .);
     font-family: 'Arimo', sans-serif;
 }
 p.text-uppercase.small-carousel-text {
@@ -235,6 +238,7 @@ p.contact-p {
     padding: 1em;
 }
 .tada-header {
+    font-size: 4em;
     padding: 0em 0em 5em 0em;
 }
 .tada-img {
@@ -461,6 +465,18 @@ footer p {
     .carousel-caption h5, p {
         font-size: 2em;
     }
+    #bg-black-box {
+        color: white;
+        text-align: center;
+        margin: -1em;
+        padding: 1em;
+        width: 30%;
+        margin-left: 0 auto;
+        background: black;
+        display: flex;
+        margin: -1em 0 0 auto;
+
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -545,11 +561,7 @@ footer p {
         padding: 3em;
     }
     .tada-section-title {
-      font-size: 4em;
-    }
-    .tada-header {
-        padding: 0em 0em 7em 0em;
-        color: #CE6152;
+        font-size: 4em;
     }
     .tada-main-box {
         padding: 1em 1em 1em 1em;
