@@ -349,6 +349,12 @@ button.btn-default.manufacturer-btn.text-uppercase:hover {
 input[type="submit"] {
     background: var(--tada-coral);
 }
+input[type="submit"]:hover {
+    color: white;
+}
+/* input.btn.btn-lg.m-3.pr-5.pl-5:hover {
+    color: white;
+} */
 .form-container {
     padding: 8em 1em 8em 1em;
 }
