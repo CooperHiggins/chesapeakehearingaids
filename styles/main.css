@@ -62,6 +62,7 @@ i.fa.fa-2x.fa-assistive-listening-systems {
 .logo {
     width: auto;
     height: 2em;
+    background-image: url('../images/chesapeake-hearing-aids-logo.png');
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.7);
