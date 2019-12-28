@@ -472,7 +472,7 @@ footer p {
         padding: 1em;
         width: 30%;
         margin-left: 0 auto;
-        background: black;
+        background: linear-gradient(390deg, black, transparent);
         display: flex;
         margin: -1em 0 0 auto;
 
