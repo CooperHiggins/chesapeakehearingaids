@@ -168,6 +168,10 @@ p.text-uppercase.small-carousel-text {
 span.cursive {
     font-family: Cursive, sans-serif;
 }
+.carousel-brand {
+    font-size: 5em;
+    color: var(--tada-coral);
+}
 h2.carousel-brand {
   font-size: 2.5em;
   font-family: 'Libre Baskerville', serif;
