@@ -151,6 +151,11 @@ button {
 p.text-uppercase.small-carousel-text {
     font-size: 1em;
 }
+p.carousel-text.text-uppercase {
+    font-size: em;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+}
 .tada-carousel-override {
     padding-top: 55%;
     left: 0;
@@ -470,13 +475,26 @@ footer p {
         color: white;
         text-align: center;
         margin: -1em;
-        padding: 1em;
-        width: 30%;
+        padding: .3em;
+        width: 52%;
+        font-size: 1.4em;
         margin-left: 0 auto;
-        background: linear-gradient(390deg, black, transparent);
+        background: rgba(0,0,0,.6);
+        line-height: 1;
         display: flex;
-        margin: -1em 0 0 auto;
-
+        margin: 0.3em 0px 1em auto;
+    }
+    span.journey {
+        font-size: 1.7em;
+    }
+    p.carousel-text.text-uppercase {
+        font-size: em;
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bolder;
+        margin: 0 8em 0px auto;
+        width: 30%;
+        font-size: 2em;
+        line-height: 1;
     }
 }
 
@@ -499,7 +517,7 @@ footer p {
     }
     p.tada-contact-p {
         font-size: 1.5em;
-    }s
+    }
     .tada-bg-box {
         border: solid;
         background: url(../images/box-bg-1.jpg);
@@ -529,10 +547,11 @@ footer p {
     }
     /*CAROUSEL CSS*/
     h2.carousel-brand {
-        font-size: 5em;
+        font-size: 6em;
+        line-height: 1;
     }
     .tada-carousel-override {
-        padding-top: 6%;
+        padding-top: 4%;
         left: 0;
         right: 0;
         bottom: 0;
