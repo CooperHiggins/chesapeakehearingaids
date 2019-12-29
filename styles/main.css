@@ -245,7 +245,7 @@ p.contact-p {
     padding: 1em;
 }
 .tada-header {
-    font-size: 4em;
+    font-size: 3em;
 }
 .tada-img {
     padding: 0em;
@@ -432,6 +432,9 @@ footer p {
     }
     iframe {
         width: 500px;
+    }
+    .tada-header {
+        font-size: 4em;
     }
 
 }
