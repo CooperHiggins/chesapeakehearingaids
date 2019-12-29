@@ -14,9 +14,11 @@ body {
     color: #333;
 }
 :root {
-    --tada-blue: #0054A6;
+    --tada-blue: #586db3;
+    /* --tada-blue: #0054A6; v2 */
     /* --tada-coral: #CE6152; v1*/
-    --tada-coral: #F2343C;
+    --tada-coral: #dd5a63;
+    /* --tada-coral: #F2343C; v2 */
     --main-bg:  #F5F5F5;
 }
 /* colors */
@@ -62,7 +64,7 @@ i.fa.fa-2x.fa-assistive-listening-systems {
 .logo {
     width: auto;
     height: 2em;
-    background-image: url('../images/chesapeake-hearing-aids-logo.png');
+    /* background-image: url('../images/chesapeake-hearing-aids-logo.png'); */
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.7);
