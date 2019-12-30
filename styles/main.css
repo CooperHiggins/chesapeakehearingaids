@@ -20,6 +20,7 @@ body {
     --tada-coral: #dd5a63;
     /* --tada-coral: #F2343C; v2 */
     --main-bg:  #F5F5F5;
+    --mainTransition: all 0.3s linear;
 }
 /* colors */
 .tada-bg-blue {
@@ -461,7 +462,7 @@ footer p {
         color: white;
     }
     .tada-carousel-override {
-        padding-top: 20%;
+        padding-top: 7%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -479,22 +480,41 @@ footer p {
         text-align: center;
         margin: -1em;
         padding: .3em;
-        width: 52%;
-        font-size: 1.4em;
+        width: 60%;
+        font-size: 1.6em;
+        background: rgba(0,0,0,.6);
+        line-height: 1;
+        display: ;
+        margin: 0.3em 0px 1em auto;
+        position: relative;
+        transition: var(--mainTransition);
+        transform: translateX(90%);
+    }
+    span.click-me {
+        float: left;
+        margin: 1em 0em 0em 0em;
+    }
+    #bg-black-box:hover {
+        color: white;
+        text-align: center;
+        margin: -1em;
+        padding: .3em;
+        width: 60%;
+        font-size: 1.6em;
         margin-left: 0 auto;
         background: rgba(0,0,0,.6);
         line-height: 1;
         display: flex;
         margin: 0.3em 0px 1em auto;
+        transform: translateX(-5%);
     }
     span.journey {
         font-size: 1.7em;
     }
     p.carousel-text.text-uppercase {
-        font-size: em;
         font-family: 'Libre Baskerville', serif;
         font-weight: bolder;
-        margin: 0 8em 0px auto;
+        margin: 0 3em 0px auto;
         width: 30%;
         font-size: 2em;
         line-height: 1;
@@ -530,6 +550,14 @@ footer p {
     .resound-container-image {
         height: max-content;
         object-fit: cover;
+    }
+    p.carousel-text.text-uppercase {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bolder;
+        margin: 0 7em 0px auto;
+        width: 30%;
+        font-size: 2em;
+        line-height: 1;
     }
     
  }
@@ -572,6 +600,14 @@ footer p {
     .carousel-caption h5, p {
         font-size: 3em;
     }
+    p.carousel-text.text-uppercase {
+        font-family: 'Libre Baskerville', serif;
+        font-weight: bolder;
+        margin: 0 5em 0px auto;
+        width: 30%;
+        font-size: 2em;
+        line-height: 1;
+    }
     /*carousel height and carousel image height*/
     .carousel-images {
         height: 37em;
@@ -580,6 +616,7 @@ footer p {
         display: block;
         min-height: 37em;
     }
+
     .tada-section {
         padding: 3em;
     }
