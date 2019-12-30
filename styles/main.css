@@ -295,6 +295,9 @@ p.contact {
 p.tada-contact-p {
     font-size: 1.5em;
 }
+iframe#hearing-aids-map {
+    width: 100%;
+}
 /* END CONTACT SECTION */
 
 
