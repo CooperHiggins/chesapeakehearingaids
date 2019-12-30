@@ -22,6 +22,12 @@ body {
     --main-bg:  #F5F5F5;
     --mainTransition: all 0.3s linear;
 }
+img {
+    cursor: -webkit-grab;
+}
+img:active {
+    cursor: -webkit-grabbing;
+}
 /* colors */
 .tada-bg-blue {
     /* background-color: #7298B5; V1*/ 
@@ -69,12 +75,9 @@ i.fa.fa-2x.fa-assistive-listening-systems {
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.7);
-    /* color: white; */
     cursor: -webkit-grab;
 }
 .navbar-light .navbar-nav .nav-link:active {
-    color: rgba(0,0,0,.7);
-    /* color: white; */
     cursor: -webkit-grabbing;
 }
 a.navbar-brand.white-text {
