@@ -504,7 +504,6 @@ footer p {
         margin: 0.3em 0px 1em auto;
         position: relative;
         transition: var(--mainTransition);
-        transform: translateX(90%);
     }
     span.click-me {
         float: left;
