@@ -166,6 +166,10 @@ p.carousel-text.text-uppercase {
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
 }
+.hearing-aids-power-statement {
+    font-size: 2.5em;
+    font-family: 'Libre Baskerville', serif;
+}
 .tada-carousel-override {
     padding-top: 55%;
     left: 0;
@@ -622,7 +626,7 @@ footer p {
     }
     /*carousel height and carousel image height*/
     .carousel-images {
-        height: 37em;
+        height: 70%;
     }
     .carousel-item.active {
         display: block;
