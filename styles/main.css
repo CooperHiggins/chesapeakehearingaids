@@ -169,6 +169,7 @@ p.carousel-text.text-uppercase {
 .hearing-aids-power-statement {
     font-size: 2.5em;
     font-family: 'Libre Baskerville', serif;
+    color: var(--tada-blue);
 }
 .tada-carousel-override {
     padding-top: 55%;
