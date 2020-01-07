@@ -398,6 +398,13 @@ input[type="submit"]:hover {
 footer p {
     font-size: 1em;
 }
+footer a {
+    color: var(--tada-blue);
+}
+footer a:hover {
+    color: var(--tada-coral);
+    text-decoration: none;
+}
 /* END FOOTER CSS */
 
 
