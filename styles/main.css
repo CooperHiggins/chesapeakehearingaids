@@ -21,6 +21,7 @@ body {
     /* --tada-coral: #F2343C; v2 */
     --main-bg:  #F5F5F5;
     --mainTransition: all 0.3s linear;
+    --tada-black: black;
 }
 img {
     cursor: -webkit-grab;
@@ -42,6 +43,9 @@ img:active {
 .main-content {
     background-color: var(--main-bg);
 }
+.black {
+    color: var(--tada-black);
+}
 /* colors */
 
 
@@ -51,14 +55,22 @@ a.call-button {
     display: flex;
 }
 a.call-to-action {
-    color: white;
+    color: var(--tada-blue);
 }
 a.call-to-action:hover {
-    color: #000;
-    text-decoration: underline;
+    color: var(--tada-coral);
+    text-decoration: none;
+}
+a.call-to-action.black {
+    color: var(--tada-black);
+    text-decoration: none;
+}
+a.call-to-action.black:hover {
+    color: var(--tada-coral);
+    text-decoration: none;
 }
 .bg-tada-blue {
-    background-color: var(--tada-blue);
+    background-color: white;
 }
 /* END CALL TO ACTION CSS */
 
@@ -77,14 +89,17 @@ i.fa.fa-2x.fa-assistive-listening-systems {
     color: rgba(0,0,0,.7);
     cursor: -webkit-grab;
 }
-.navbar-light .navbar-nav .nav-link:active {
-    cursor: -webkit-grabbing;
+a.nav-link:active {
+    cursor: grabbing;
 }
 a.navbar-brand.white-text {
     color: white;
 }
 .navbar-brand.white-text, a:hover {
     color: white;
+}
+.navbar-blue {
+    background-color: var(--tada-blue);
 }
 a.navbar-brand {
     font-size: .9em;
@@ -106,7 +121,7 @@ a.nav-link {
     align-content: center;
     font-family: 'Libre Baskerville', serif;
     content: inherit;
-    color: var(--tada-coral);
+    color: white;
     font-size: 1.2em;
 }
 a.nav-link:hover {
@@ -123,8 +138,11 @@ a.navbar-brand.text-uppercase {
 a.navbar-brand.text-uppercase:hover {
     color: white;
 }
+.f-1_4 {
+    font-size: 1.4em;
+}
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
-        display: block;
+    display: block;
     }
     .dropdown-menu{
         margin-top: 0;
@@ -162,7 +180,6 @@ p.text-uppercase.small-carousel-text {
     font-size: 1em;
 }
 p.carousel-text.text-uppercase {
-    font-size: em;
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
 }
@@ -170,9 +187,9 @@ p.carousel-text.text-uppercase {
     font-size: 2.5em;
     font-family: 'Libre Baskerville', serif;
     color: var(--tada-blue);
+    line-height: .3;
 }
 .tada-carousel-override {
-    padding-top: 55%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -204,14 +221,23 @@ h2.carousel-brand {
 }
 /*carousel height and carousel image height*/
 .carousel-images {
-    height: 45em;
+    max-height: 39em;
 }
-.carousel-item.active {
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 40em;
+}
+/* .carousel-item.active {
     display: block;
-    min-height: 45em;
-}
+    min-height: 50em;
+} */
 a#arrow {
     color: var(--tada-coral);
+}
+a#arrow:hover {
+    color: var(--tada-blue);
 }
 span.carousel-control-prev-icon {
     background-image: none;
@@ -632,14 +658,10 @@ footer a:hover {
         line-height: 1;
     }
     /*carousel height and carousel image height*/
-    .carousel-images {
-        height: 70%;
-    }
     .carousel-item.active {
         display: block;
-        min-height: 37em;
+        min-height: 30em;
     }
-
     .tada-section {
         padding: 3em;
     }
