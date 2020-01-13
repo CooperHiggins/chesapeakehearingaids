@@ -14,11 +14,14 @@ body {
     color: #333;
 }
 :root {
-    --tada-blue: #586db3;
+    /* --tada-blue: #586db3; */
+    --tada-blue: #5371FF;
     /* --tada-blue: #0054A6; v2 */
     /* --tada-coral: #CE6152; v1*/
-    --tada-coral: #dd5a63;
     /* --tada-coral: #F2343C; v2 */
+    /* --tada-coral: #dd5a63; v3*/
+    --tada-coral: #FF5758;
+    
     --main-bg:  #F5F5F5;
     --mainTransition: all 0.3s linear;
     --tada-black: black;
@@ -187,7 +190,6 @@ p.carousel-text.text-uppercase {
     font-size: 2.5em;
     font-family: 'Libre Baskerville', serif;
     color: var(--tada-blue);
-    line-height: .3;
 }
 .tada-carousel-override {
     left: 0;
@@ -221,18 +223,11 @@ h2.carousel-brand {
 }
 /*carousel height and carousel image height*/
 .carousel-images {
-    max-height: 39em;
+    height: 100%;
 }
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+.carousel-item.active {
     height: 40em;
 }
-/* .carousel-item.active {
-    display: block;
-    min-height: 50em;
-} */
 a#arrow {
     color: var(--tada-coral);
 }
@@ -444,6 +439,12 @@ footer a:hover {
     div#carouselExampleCaptions {
         height: 100%;
     }
+    .carousel-images {
+        height: 100%;
+    }
+    .carousel-item.active {
+        height: 50em;
+    }
     /*FORM SECTION CSS*/
     .form-input {
         margin: .3em;
@@ -608,6 +609,12 @@ footer a:hover {
         font-size: 2em;
         line-height: 1;
     }
+    .carousel-images {
+        height: 100%;
+    }
+    .carousel-item.active {
+        height: 50em;
+    }
     
  }
 
@@ -631,7 +638,7 @@ footer a:hover {
         line-height: 1;
     }
     .tada-carousel-override {
-        padding-top: 4%;
+        padding-top: 2%;
         left: 0;
         right: 0;
         bottom: 0;
@@ -683,6 +690,12 @@ footer a:hover {
         transform: rotate(180deg);*/
         color: white;
     }
+    .hearing-aids-power-statement {
+        font-size: 2.5em;
+        font-family: 'Libre Baskerville', serif;
+        color: var(--tada-blue);
+        line-height: .3;
+    }
     .tada-bg-box-img {
         background: url(../images/box-bg-1.jpg);
         background-position: top;
@@ -709,5 +722,17 @@ footer a:hover {
     p.contact {
         font-size: 1.5em;
     }
-
+        /* .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        min-height: 50em;
+    } */
+    /* .carousel-item.active {
+        display: block;
+        min-height: 50em;
+    } */
+    .carousel-images {
+        height: 70%;
+    }
 }
