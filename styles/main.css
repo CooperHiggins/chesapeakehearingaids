@@ -632,6 +632,11 @@ footer a:hover {
         color: white;
         font-family: 'Libre Bakersville', sans-serif;
     }
+    .logo {
+        width: auto;
+        height: 3em;
+        /* background-image: url('../images/chesapeake-hearing-aids-logo.png'); */
+    }
     /*CAROUSEL CSS*/
     h2.carousel-brand {
         font-size: 6em;
