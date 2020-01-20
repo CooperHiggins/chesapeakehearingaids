@@ -8,6 +8,14 @@
     color: #000;
     padding: 0.2em 0;
 }
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(https://fonts.googleapis.com/css?family=Arimo&display=swap) format('url'),
+         url(/path/to/fonts/examplefont.eot) format('url');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
 body {
     background-color: #F5F5F5;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
