@@ -266,7 +266,7 @@ span.display-none-mobile {
     color: white;
 }
 .tada-bg-box-img {
-    background: url(../images/box-bg-1.jpg);
+    background: url(../images/box-bg-1.png);
     background-position: top;
     background-webkit-transform: rotate(180deg);
     background-transform: rotate(180deg);
@@ -476,7 +476,7 @@ footer a:hover {
     .tada-bg-box {
         border: solid;
         /*padding: 5em 15em 5em 15em;*/
-        background: url(../images/box-bg-1.jpg);
+        background: url(../images/box-bg-1.png);
         background-position: top;
         color: white;
     }
@@ -517,7 +517,7 @@ footer a:hover {
     .tada-bg-box {
         border: solid;
         /*padding: 5em 15em 5em 15em;*/
-        background: url(../images/box-bg-1.jpg);
+        background: url(../images/box-bg-1.png);
         background-position: top;
         color: white;
     }
@@ -602,7 +602,7 @@ footer a:hover {
     }
     .tada-bg-box {
         border: solid;
-        background: url(../images/box-bg-1.jpg);
+        background: url(../images/box-bg-1.png);
         background-position: top;
         color: white;
     }
