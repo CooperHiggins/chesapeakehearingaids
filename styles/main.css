@@ -24,7 +24,8 @@ body {
 }
 :root {
     /* --tada-blue: #586db3; */
-    --tada-blue: #5371FF;
+    --tada-blue: #5371FF; 
+    --tada-blue: #5360ff;
     /* --tada-blue: #0054A6; v2 */
     /* --tada-coral: #CE6152; v1*/
     /* --tada-coral: #F2343C; v2 */
@@ -127,7 +128,7 @@ span.brand-text {
     content: inherit;
     color: black;
 }
-a.nav-link {
+/* a.nav-link {
     vertical-align: text-bottom;
     contain: content;
     align-content: center;
@@ -135,6 +136,29 @@ a.nav-link {
     content: inherit;
     color: white;
     font-size: 1.2em;
+} */
+a.nav-link-tada {
+    color: red;
+    font-size: 1.3em;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    vertical-align: text-bottom;
+    content: inherit;
+    align-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+a.nav-link {
+    color: red;
+    font-size: 1.3em;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    vertical-align: text-bottom;
+    content: inherit;
+    align-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 a.nav-link:hover {
     vertical-align: text-bottom;
