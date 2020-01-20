@@ -366,6 +366,9 @@ p.tada-contact-p {
 iframe#hearing-aids-map {
     width: 100%;
 }
+label {
+    display: contents;
+}
 /* END CONTACT SECTION */
 
 
