@@ -250,7 +250,7 @@ span.cursive {
     font-size: 5em;
     color: var(--tada-coral);
 }
-h2.carousel-brand {
+h1.carousel-brand {
     font-size: 2.5em;
     font-family: 'Libre Baskerville', serif;
 }
@@ -556,7 +556,7 @@ footer a:hover {
         height: 100%;
         width: 100%;
     }
-    h2.carousel-brand {
+    h1.carousel-brand {
         font-size: 4em;
     }
     .carousel-caption h5, p {
@@ -674,7 +674,7 @@ footer a:hover {
         /* background-image: url('../images/chesapeake-hearing-aids-logo.png'); */
     }
     /*CAROUSEL CSS*/
-    h2.carousel-brand {
+    h1.carousel-brand {
         font-size: 6em;
         line-height: 1;
     }
