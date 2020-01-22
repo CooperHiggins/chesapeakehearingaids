@@ -306,6 +306,40 @@ p.tada-bg-box-text {
 p.main-section-paragraph {
     font-size: 1.3em;
 }
+
+/* PURE CSS TRIANGLE WITH BORDER LIST */
+.triangle-row {
+    display: flex;
+    border-left: 1.5em solid var(--tada-coral);
+}
+.triangle-box {
+    /* border-left: 1.5em solid var(--tada-coral); */
+    height: 3em;
+    display: grid;
+}
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 10px solid var(--tada-coral);
+    border-bottom: 7px solid transparent;
+    display: grid;
+    vertical-align: middle;
+    margin: auto;
+}
+
+ul.triangle-list {
+    line-height: 1;
+    margin: 0;
+    list-style: none;
+    display: contents;
+}
+li.triangle-list-items {
+    padding: .7em;
+}
+/* PURE CSS TRIANGLE WITH BORDER LIST */
+
+
 /* END MAIN CONTENT CSS */
 
 
@@ -527,6 +561,9 @@ footer a:hover {
     .tada-header {
         font-size: 4em;
     }
+    /* end manufacturer page */
+
+    
 
 }
 
@@ -608,6 +645,40 @@ footer a:hover {
         font-size: 2em;
         line-height: 1;
     }
+
+    /* PURE CSS TRIANGLE WITH BORDER LIST */
+    .triangle-row {
+        display: flex;
+        border-left: 1.5em solid var(--tada-coral);
+    }
+    .triangle-box {
+        /* border-left: 1.5em solid var(--tada-coral); */
+        height: 2em;
+        display: grid;
+    }
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-left: 10px solid var(--tada-coral);
+        border-bottom: 7px solid transparent;
+        display: grid;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+    ul.triangle-list {
+        line-height: 2;
+        margin: 0;
+        list-style: none;
+        display: contents;
+    }
+    li.triangle-list-items {
+        /* border: 1px solid; */
+        /* margin: auto; */
+        padding: 0;
+    }
+    /* PURE CSS TRIANGLE WITH BORDER LIST */
 }
 
 /*// Large devices (desktops, 992px and up)*/
