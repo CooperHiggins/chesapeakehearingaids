@@ -337,6 +337,12 @@ ul.triangle-list {
 li.triangle-list-items {
     padding: .7em;
 }
+.list-title {
+    background-color: lightgray;
+    margin: 0em;
+    font-size: 1px;
+    padding-left: 1em;
+}
 /* PURE CSS TRIANGLE WITH BORDER LIST */
 
 
