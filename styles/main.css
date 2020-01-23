@@ -51,6 +51,9 @@ img:active {
 .tada-font-coral {
     color: var(--tada-coral);
 }
+.tada-coral {
+    color: var(--tada-coral);
+}
 .bg-blue {
     background-color: var(--tada-blue);
 }
