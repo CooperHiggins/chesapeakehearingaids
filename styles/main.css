@@ -216,6 +216,12 @@ button {
     background: rgba(0,0,0, .);
     font-family: 'Arimo', sans-serif;
 }
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 41em;
+}
 p.text-uppercase.small-carousel-text {
     /* font-size: 1em; */
 }
@@ -607,6 +613,12 @@ footer a:hover {
         bottom: 0;
         height: 100%;
         width: 100%;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 36em;
     }
     h1.carousel-brand {
         font-size: 4em;
