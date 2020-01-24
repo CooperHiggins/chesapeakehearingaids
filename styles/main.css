@@ -222,9 +222,6 @@ button {
     overflow: hidden;
     height: 41em;
 }
-p.text-uppercase.small-carousel-text {
-    /* font-size: 1em; */
-}
 p.carousel-text.text-uppercase {
     font-family: 'Libre Baskerville', serif;
     font-weight: bolder;
