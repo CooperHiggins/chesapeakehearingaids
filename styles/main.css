@@ -193,6 +193,7 @@ button {
     font-weight: bold;
 }
 
+
 /*CAROUSEL CSS*/
 .carousel-caption {
     position: absolute;
@@ -274,6 +275,7 @@ span.carousel-control-next-icon {
 }
 /* END CAROUSEL CSS */
 
+
 /*MAIN CONTENT CSS*/
 .tada-main-box {
     padding: 1em;
@@ -305,6 +307,9 @@ p.tada-bg-box-text {
 p.main-section-paragraph {
     font-size: 1.3em;
 }
+ul.number-list {
+    list-style: decimal;
+}
 
 /* PURE CSS TRIANGLE WITH BORDER LIST */
 .triangle-row {
@@ -326,7 +331,6 @@ p.main-section-paragraph {
     vertical-align: middle;
     margin: auto;
 }
-
 ul.triangle-list {
     line-height: 1;
     margin: 0;
@@ -343,8 +347,6 @@ li.triangle-list-items {
     padding-left: 1em;
 }
 /* PURE CSS TRIANGLE WITH BORDER LIST */
-
-
 /* END MAIN CONTENT CSS */
 
 
@@ -479,9 +481,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     color: white;
 }
-/* input.btn.btn-lg.m-3.pr-5.pl-5:hover {
-    color: white;
-} */
 .form-container {
     padding: 8em 1em 8em 1em;
 }
@@ -513,7 +512,7 @@ footer a:hover {
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
 
-    /*Carousel CSS*/
+    /*CAROUSEL CSS*/
     div#carouselExampleCaptions {
         height: 36em;
     }
@@ -523,6 +522,8 @@ footer a:hover {
     .carousel-item.active {
         height: 50em;
     }
+    /* END CAROUSEL CSS */
+
     /*FORM SECTION CSS*/
     .form-input {
         margin: .3em;
@@ -544,7 +545,6 @@ footer a:hover {
     }
     .tada-bg-box {
         border: solid;
-        /*padding: 5em 15em 5em 15em;*/
         background: url(../images/box-bg-1.png);
         background-position: top;
         color: white;
@@ -568,8 +568,6 @@ footer a:hover {
     }
     /* end manufacturer page */
 
-    
-
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -588,7 +586,6 @@ footer a:hover {
     }
     .tada-bg-box {
         border: solid;
-        /*padding: 5em 15em 5em 15em;*/
         background: url(../images/box-bg-1.png);
         background-position: top;
         color: white;
