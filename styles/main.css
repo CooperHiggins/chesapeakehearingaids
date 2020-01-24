@@ -100,7 +100,6 @@ i.fa.fa-2x.fa-assistive-listening-systems {
 .logo {
     width: auto;
     height: 2em;
-    /* background-image: url('../images/chesapeake-hearing-aids-logo.png'); */
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.7);
@@ -132,15 +131,6 @@ span.brand-text {
     content: inherit;
     color: black;
 }
-/* a.nav-link {
-    vertical-align: text-bottom;
-    contain: content;
-    align-content: center;
-    font-family: 'Libre Baskerville', serif;
-    content: inherit;
-    color: white;
-    font-size: 1.2em;
-} */
 a.nav-link-tada {
     color: red;
     font-size: 1.3em;
