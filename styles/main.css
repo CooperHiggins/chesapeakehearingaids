@@ -821,7 +821,7 @@ footer a:hover {
         line-height: .3;
     }
     .tada-bg-box-img {
-        background: url(../images/box-bg-1.jpg);
+        background: url(../images/box-bg-1.png);
         background-position: top;
         background-webkit-transform: rotate(180deg);
         background-transform: rotate(180deg);
