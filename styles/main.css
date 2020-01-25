@@ -184,7 +184,6 @@ a.navbar-brand.text-uppercase:hover {
         margin-bottom: 0;
     }
 }
-
 .nav a {
     font-size: 1.2em;
 }
@@ -201,7 +200,6 @@ span.dropbtn.navbar-toggler-icon {
     -webkit-transition: 3s ease-out;
     -moz-transition: 3s ease-out;
     -ms-transition: 3s ease-out;
-
 }
 .dropbtn {
     background-color: var(--tada-coral);
@@ -216,7 +214,6 @@ span.dropbtn.navbar-toggler-icon {
     padding: 0em;
     height: 40px;
     width: 56px;
-
   }
   
   .dropbtn:hover, .dropbtn:focus {
@@ -228,7 +225,6 @@ span.dropbtn.navbar-toggler-icon {
     height: 40px;
     width: 56px;
   }
-  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -236,11 +232,19 @@ span.dropbtn.navbar-toggler-icon {
     -moz-transition: 3s ease-out;
     -ms-transition: 3s ease-out;
   }
-  
+  .dropdown-content#myDropdown {
+    -webkit-transition: 3s ease-out;
+    -moz-transition: 3s ease-out;
+    -ms-transition: 3s ease-out;
+  }
+  #myDropdown.dropdown-content.show {
+    -webkit-transition: 3s ease-out;
+    -moz-transition: 3s ease-out;
+    -ms-transition: 3s ease-out;
+  }
   .dropdown-content {
     display: none;
     position: flex;
-    /* background-color: #f1f1f1; */
     min-width: 100%;
     overflow: auto;
     box-shadow: 0em 0px 25px 2px;
@@ -250,7 +254,6 @@ span.dropbtn.navbar-toggler-icon {
     -webkit-transition: 3s ease-out;
     -moz-transition: 3s ease-out;
     -ms-transition: 3s ease-out;
-
   }
   .dropdown-content a {
     color: black;
@@ -262,7 +265,6 @@ span.dropbtn.navbar-toggler-icon {
     -ms-transition: 3s ease-out;
   }
 
-  
   /* navlink color */
   .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -272,7 +274,10 @@ li.nav-item {
     border: 5px solid var(--tada-coral);
     margin: .5em;
 }
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link {
     color: white;
 }
   
@@ -306,7 +311,7 @@ li.nav-item {
     padding-bottom: 20px;
     color: black;
     text-align: center;
-    background: rgba(0,0,0, .);
+    background: rgba(0,0,0, .0);
     font-family: 'Arimo', sans-serif;
 }
 .carousel-inner {
