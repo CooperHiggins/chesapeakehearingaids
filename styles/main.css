@@ -194,6 +194,9 @@ button {
 }
 
 /* DROPDOWN STYLES */
+span.dropbtn.navbar-toggler-icon {
+    width: 2em;
+}
 .myDropdown {
     -webkit-transition: 3s ease-out;
     -moz-transition: 3s ease-out;
