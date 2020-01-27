@@ -453,6 +453,10 @@ li.triangle-list-items {
     font-size: 1px;
     padding-left: 1em;
 }
+li.triangle-list-items-full {
+    background-color: lightblue;
+    padding: 1em;
+}
 /* PURE CSS TRIANGLE WITH BORDER LIST */
 /* END MAIN CONTENT CSS */
 
@@ -800,7 +804,7 @@ li.nav-item {
         position: relative;
         width: 100%;
         overflow: hidden;
-        height: 36em;
+        height: 100%;
     }
     h1.carousel-brand {
         font-size: 4em;
