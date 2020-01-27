@@ -890,7 +890,7 @@ li.nav-item {
         padding: 0em 0em 0em 1em;
     }
     .triangle-box.m-auto {
-        padding-top: 1.4em;
+        /* padding-top: 1.4em; */
     }
     /* PURE CSS TRIANGLE WITH BORDER LIST */
 
