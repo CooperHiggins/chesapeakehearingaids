@@ -44,7 +44,13 @@ img:active {
 img:focus {
     cursor: -webkit-grabbing;
 }
-
+img.img-fluid {
+    width: 100%;
+    height: auto;
+}
+.text-center {
+    text-align: center;
+}
 .text-center {
     text-align: center;
 }
@@ -363,7 +369,7 @@ p.carousel-text.text-uppercase {
 }
 .carousel-caption h5, p {
     font-size: 1.2em;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Arimo', serif;
 }
 span.cursive {
     font-family: Cursive, sans-serif;
