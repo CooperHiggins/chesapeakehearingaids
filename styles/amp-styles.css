@@ -24,15 +24,17 @@ h1 {
     font-size: 2em;
     margin: .67em 0
 }
+
 :root {
-    --tada-blue: #5371FF; 
+    --tada-blue: #5371FF;
     --tada-coral: #FF5758;
-    --main-bg:  #F5F5F5;
+    --main-bg: #F5F5F5;
     --mainTransition: all 0.3s linear;
-    --tada-black: black;
+    --tada-black: black
 }
+
 * {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 figcaption,
@@ -308,9 +310,11 @@ template {
 .center {
     text-align: center
 }
+
 .text-center {
-    text-align: center;
+    text-align: center
 }
+
 .right-align {
     text-align: right
 }
@@ -1411,25 +1415,30 @@ body {
 }
 
 .ampstart-fullpage-hero-heading-text {
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville'
 }
+
 span.ampstart-fullpage-hero-heading-text-two {
     color: var(--tada-blue);
     font-size: 1.2em;
-    line-height: 1;
+    line-height: 1
 }
+
 span.ampstart-image-credit.h4 {
     font-family: 'Libre Baskerville';
     line-height: 1;
-    margin-left: 40%;
+    margin-left: 40%
 }
+
 span#heading-text {
-    color: white;
+    color: #fff
 }
+
 .blackbox {
-    background: rgba(0,0,0,.6);
-    line-height: 1;
+    background: rgba(0, 0, 0, .6);
+    line-height: 1
 }
+
 .ampstart-card {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 1px -1px rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
 }
@@ -1666,7 +1675,7 @@ a:visited {
 }
 
 .ampstart-fullpage-hero-cta {
-    background: transparent
+    background: 0 0
 }
 
 .ampstart-readmore {
@@ -1682,7 +1691,7 @@ a:visited {
 }
 
 .ampstart-readmore-text {
-    background: none
+    background: 0 0
 }
 
 @media (min-width:52.06rem) {
@@ -1739,7 +1748,7 @@ amp-carousel .ampstart-image-with-caption {
     border: 0;
     border-radius: 0;
     border-bottom: 1px solid #4a4a4a;
-    background: none;
+    background: 0 0;
     color: #4a4a4a;
     outline: 0
 }
@@ -1948,7 +1957,7 @@ _:-ms-lang(x) {
     background-color: #000;
     color: #fff;
     z-index: 999;
-    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, .1)
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1)
 }
 
 .ampstart-headerbar+:not(amp-sidebar),
@@ -1958,7 +1967,7 @@ _:-ms-lang(x) {
 
 .ampstart-headerbar-nav .ampstart-nav-item {
     padding: 0 1rem;
-    background: transparent;
+    background: 0 0;
     opacity: .8
 }
 
@@ -1973,7 +1982,7 @@ _:-ms-lang(x) {
 }
 
 .ampstart-navbar-trigger:focus {
-    outline: none
+    outline: 0
 }
 
 .ampstart-nav a,
@@ -1998,8 +2007,8 @@ _:-ms-lang(x) {
 }
 
 .ampstart-nav-search {
-    -ms-flex-positive: 0.5;
-    flex-grow: 0.5
+    -ms-flex-positive: .5;
+    flex-grow: .5
 }
 
 .ampstart-headerbar .ampstart-nav-search:active,
@@ -2053,8 +2062,8 @@ _:-ms-lang(x) {
     min-height: 3.5rem
 }
 
-.ampstart-sidebar .ampstart-dropdown-item,
 .ampstart-sidebar .ampstart-dropdown header,
+.ampstart-sidebar .ampstart-dropdown-item,
 .ampstart-sidebar .ampstart-faq-item,
 .ampstart-sidebar .ampstart-nav-item,
 .ampstart-sidebar .ampstart-social-follow {
@@ -2130,13 +2139,15 @@ _:-ms-lang(x) {
 }
 
 .ampstart-social-box {
-    background-color: white;
+    background-color: #fff;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    position: absolute;
+    left: 0;
 }
 
 .ampstart-social-box>amp-social-share {
-    background-color: #fff
+    background-color: none
 }
 
 .ampstart-icon {
@@ -2147,12 +2158,12 @@ _:-ms-lang(x) {
 .h2,
 h1,
 h2 {
-    
     letter-spacing: 0
 }
+
 .helvetica {
     font-family: Helvetica;
-    font-weight: bold;
+    font-weight: 700
 }
 
 .h3,
@@ -2170,13 +2181,14 @@ h4 {
 
 .ampstart-headerbar {
     background: var(--tada-blue);
-    color: white;
+    color: #fff
 }
+
 .ampstart-headerbar-title {
     font-family: 'Libre Baskerville';
-    color: white;
+    color: #fff;
     font-size: 1.3em;
-    margin: 1em;
+    margin: 1em
 }
 
 .ampstart-navbar-trigger {
@@ -2201,15 +2213,15 @@ h4 {
     margin-left: 1rem
 }
 
-.ampstart-sidebar .ampstart-dropdown-item,
 .ampstart-sidebar .ampstart-dropdown header,
+.ampstart-sidebar .ampstart-dropdown-item,
 .ampstart-sidebar .ampstart-faq-item {
     margin-bottom: 1.5rem
 }
 
 .ampstart-article-summary header,
 .ampstart-image-fullpage-hero figcaption {
-    background: none;
+    background: 0 0;
     opacity: .9
 }
 
@@ -2217,12 +2229,14 @@ h4 {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
-    top: 0%;
-    bottom: auto;
+    top: 0;
+    bottom: auto
 }
+
 h1.ampstart-fullpage-hero-heading-one {
-    color: var(--tada-coral);
+    color: var(--tada-coral)
 }
+
 .ampstart-fullpage-hero-heading {
     font-size: 1.25rem;
     line-height: 1.6;
@@ -2249,12 +2263,12 @@ h1.ampstart-fullpage-hero-heading-one {
 .ampstart-fullpage-hero-heading-text,
 .ampstart-image-fullpage-hero .ampstart-image-credit {
     line-height: .9;
-    background: none;
+    background: 0 0;
     padding: 0
 }
 
 .ampstart-readmore {
-    background: none;
+    background: 0 0;
     display: block;
     margin: 0;
     padding: 1rem 0 2rem
@@ -2270,9 +2284,8 @@ h1.ampstart-fullpage-hero-heading-one {
     left: calc(50% - 15px);
     position: absolute;
     transform: rotate(45deg);
-    width: 30px;
+    width: 30px
 }
-
 
 .ampstart-dropcap:first-letter {
     color: #000;
