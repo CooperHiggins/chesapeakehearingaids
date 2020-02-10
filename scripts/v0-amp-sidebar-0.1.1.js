@@ -327,10 +327,10 @@
             this.sa = this.Ma.bind(this);
             this.ta = this.Na.bind(this);
             this.ra = this.La.bind(this);
-            this.o.addEventListener("touchstart", this.ua);
-            this.o.addEventListener("touchend", this.sa);
-            this.o.addEventListener("touchmove", this.ta);
-            this.o.addEventListener("touchcancel", this.ra);
+            this.o.addEventListener("touchstart", this.ua, { passive: true });
+            this.o.addEventListener("touchend", this.sa, { passive: true });
+            this.o.addEventListener("touchmove", this.ta, { passive: true });
+            this.o.addEventListener("touchcancel", this.ra, { passive: true });
             this.ha = !1
         }
 
@@ -1156,7 +1156,9 @@
                 a.getAmpDoc().getBody().appendChild(b);
                 b.addEventListener("touchmove", function(a) {
                     a.preventDefault()
-                });
+                }, {
+                    capture: true,
+                    passive: true});
                 Wa(a, b);
                 a.Y = b
             }
@@ -1166,7 +1168,9 @@
         function Ta(a) {
             a.element.addEventListener("scroll", function(b) {
                 a.G && (1 > a.element.scrollTop ? (a.element.scrollTop = 1, b.preventDefault()) : a.element.scrollHeight == a.element.scrollTop + a.element.offsetHeight && (--a.element.scrollTop, b.preventDefault()))
-            })
+            }, {
+                capture: true,
+                passive: true})
         }
 
         function Ya(a) {
