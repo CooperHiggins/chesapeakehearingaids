@@ -1,5 +1,5 @@
 * {
-    transition: 1s; /* not supported on AMP PAGES */
+    transition: .1s; /* not supported on AMP PAGES */
     scroll-behavior: smooth; /*Adds smooth scrolling to elements that link within the page */
 }
 a {
